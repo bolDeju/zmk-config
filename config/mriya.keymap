@@ -22,6 +22,20 @@
 };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        new_combo {
+            bindings = <&kp LS(LEFT_META)>;
+            key-positions = <48 49>;
+        };
+
+        new_combo {
+            bindings = <&kp RS(RCMD)>;
+            key-positions = <54 55>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
