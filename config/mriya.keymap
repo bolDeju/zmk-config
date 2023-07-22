@@ -28,11 +28,13 @@
         new_combo {
             bindings = <&kp LS(LEFT_META)>;
             key-positions = <48 49>;
+            layers = <0>;
         };
 
         new_combo {
             bindings = <&kp RS(RCMD)>;
             key-positions = <54 55>;
+            layers = <0>;
         };
     };
 
