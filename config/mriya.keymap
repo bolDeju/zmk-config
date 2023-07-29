@@ -36,6 +36,16 @@
             key-positions = <54 55>;
             layers = <0>;
         };
+
+        in_game {
+            bindings = <&tog 4>;
+            key-positions = <29 25 15 43 20>;
+        };
+
+        out_game {
+            bindings = <&tog 0>;
+            key-positions = <25 15 29 43 21>;
+        };
     };
 
     keymap {
@@ -78,6 +88,16 @@
    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0   &bt BT_CLR
    &sys_reset         &none         &none         &none         &none         &none           &none         &none         &none         &none         &none   &sys_reset
                                     &none        &trans         &none        &trans          &trans         &none        &trans         &none
+            >;
+        };
+
+        gaming_layer {
+            bindings = <
+  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
     };
