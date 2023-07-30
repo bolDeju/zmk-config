@@ -83,9 +83,9 @@
 
         gaming_layer {
             bindings = <
-  &kp SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5    &none  &none  &none  &none  &none  &to 0
+  &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4    &kp NUMBER_5    &none  &none  &none  &none  &none  &to 0
   &kp GRAVE         &none         &kp Q         &kp W         &kp E           &kp R    &none  &none  &none  &none  &none  &none
-      &none         &none         &kp A         &kp S         &kp D           &kp F    &none  &none  &none  &none  &none  &none
+      &kp M         &none         &kp A         &kp S         &kp D           &kp F    &none  &none  &none  &none  &none  &none
       &kp L         &none         &kp Z         &kp X         &kp C           &kp V    &none  &none  &none  &none  &none  &none
                              &kp ESCAPE       &kp TAB     &kp SPACE  &kp LEFT_SHIFT    &none  &none  &none  &none
             >;
